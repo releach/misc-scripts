@@ -1,11 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Children",
-    "normalized_name": "children",
-    "gender": ""
-  },
-  {
     "id": 2,
     "name": "Mechanical Santa",
     "normalized_name": "mechanical santa",
@@ -23,30 +17,7 @@
     "normalized_name": "doctor zitsofsky",
     "gender": ""
   },
-  {
-    "id": 5,
-    "name": "Students",
-    "normalized_name": "students",
-    "gender": ""
-  },
-  {
-    "id": 6,
-    "name": "Little Boy",
-    "normalized_name": "little boy",
-    "gender": ""
-  },
-  {
-    "id": 7,
-    "name": "Lewis Clark",
-    "normalized_name": "lewis clark",
-    "gender": ""
-  },
-  {
-    "id": 8,
-    "name": "Little Girl",
-    "normalized_name": "little girl",
-    "gender": ""
-  },
+
   {
     "id": 9,
     "name": "Bubbles",
@@ -59,18 +30,7 @@
     "normalized_name": "moldy",
     "gender": ""
   },
-  {
-    "id": 11,
-    "name": "Ticket Seller",
-    "normalized_name": "ticket seller",
-    "gender": ""
-  },
-  {
-    "id": 12,
-    "name": "Elf #1",
-    "normalized_name": "elf 1",
-    "gender": ""
-  },
+
   {
     "id": 13,
     "name": "Elves",
@@ -83,60 +43,14 @@
     "normalized_name": "dogs owner",
     "gender": ""
   },
-  {
-    "id": 15,
-    "name": "Kids",
-    "normalized_name": "kids",
-    "gender": ""
-  },
-  {
-    "id": 16,
-    "name": "Conductor",
-    "normalized_name": "conductor",
-    "gender": ""
-  },
-  {
-    "id": 17,
-    "name": "Secretary",
-    "normalized_name": "secretary",
-    "gender": ""
-  },
-  {
-    "id": 18,
-    "name": "Sydney",
-    "normalized_name": "sydney",
-    "gender": ""
-  },
-  {
-    "id": 19,
-    "name": "Cecile Shapiro",
-    "normalized_name": "cecile shapiro",
-    "gender": ""
-  },
-  {
-    "id": 20,
-    "name": "Ian",
-    "normalized_name": "ian",
-    "gender": ""
-  },
-  {
-    "id": 21,
-    "name": "Calvin",
-    "normalized_name": "calvin",
-    "gender": ""
-  },
+
   {
     "id": 22,
     "name": "'Martin Prince",
     "normalized_name": "Sr.'",
     "gender": "martin prince sr"
   },
-  {
-    "id": 23,
-    "name": "Richard",
-    "normalized_name": "richard",
-    "gender": ""
-  },
+
   {
     "id": 24,
     "name": "Wendell Borton",
@@ -161,24 +75,7 @@
     "normalized_name": "rod 2",
     "gender": ""
   },
-  {
-    "id": 28,
-    "name": "RODS",
-    "normalized_name": "rods",
-    "gender": ""
-  },
-  {
-    "id": 29,
-    "name": "Workman #1",
-    "normalized_name": "workman 1",
-    "gender": ""
-  },
-  {
-    "id": 30,
-    "name": "Foreman",
-    "normalized_name": "foreman",
-    "gender": ""
-  },
+
   {
     "id": 31,
     "name": "TERRI & SHERRI",
@@ -189,18 +86,6 @@
     "id": 32,
     "name": "PUNK TEENAGER",
     "normalized_name": "punk teenager",
-    "gender": ""
-  },
-  {
-    "id": 33,
-    "name": "Tv Announcer #1",
-    "normalized_name": "tv announcer 1",
-    "gender": ""
-  },
-  {
-    "id": 34,
-    "name": "Tv Announcer #2",
-    "normalized_name": "tv announcer 2",
     "gender": ""
   },
   {
@@ -221,112 +106,18 @@
     "normalized_name": "old man winfield",
     "gender": ""
   },
-  {
-    "id": 38,
-    "name": "Councilman #1",
-    "normalized_name": "councilman 1",
-    "gender": ""
-  },
-  {
-    "id": 39,
-    "name": "Councilman #2",
-    "normalized_name": "councilman 2",
-    "gender": ""
-  },
-  {
-    "id": 40,
-    "name": "COUNCILMEN #1/#2",
-    "normalized_name": "councilmen 12",
-    "gender": ""
-  },
-  {
-    "id": 41,
-    "name": "Demonstrator #1",
-    "normalized_name": "demonstrator 1",
-    "gender": ""
-  },
-  {
-    "id": 42,
-    "name": "Crowd",
-    "normalized_name": "crowd",
-    "gender": ""
-  },
+
   {
     "id": 43,
     "name": "MR. GAMMILL",
     "normalized_name": "mr gammill",
     "gender": ""
   },
-  {
-    "id": 44,
-    "name": "TOM",
-    "normalized_name": "tom",
-    "gender": ""
-  },
+
   {
     "id": 45,
     "name": "Mrs. Long",
     "normalized_name": "mrs long",
-    "gender": ""
-  },
-  {
-    "id": 46,
-    "name": "Wife #1",
-    "normalized_name": "wife 1",
-    "gender": ""
-  },
-  {
-    "id": 47,
-    "name": "Wife #2",
-    "normalized_name": "wife 2",
-    "gender": ""
-  },
-  {
-    "id": 48,
-    "name": "Other Women",
-    "normalized_name": "other women",
-    "gender": ""
-  },
-  {
-    "id": 49,
-    "name": "Nice Father",
-    "normalized_name": "nice father",
-    "gender": ""
-  },
-  {
-    "id": 50,
-    "name": "Nice Boy",
-    "normalized_name": "nice boy",
-    "gender": ""
-  },
-  {
-    "id": 51,
-    "name": "NICE GIRL",
-    "normalized_name": "nice girl",
-    "gender": ""
-  },
-  {
-    "id": 52,
-    "name": "Nice Mother",
-    "normalized_name": "nice mother",
-    "gender": ""
-  },
-  {
-    "id": 53,
-    "name": "NICE FAMILY",
-    "normalized_name": "nice family",
-    "gender": ""
-  },
-  {
-    "id": 54,
-    "name": "Williams Boy",
-    "normalized_name": "williams boy",
-    "gender": ""
-  },
-  {
-    "id": 55,
-    "name": "Mr. Williams",
-    "normalized_name": "mr williams",
     "gender": ""
   },
   {
@@ -335,36 +126,7 @@
     "normalized_name": "boxing announcer",
     "gender": ""
   },
-  {
-    "id": 57,
-    "name": "TV-STATION ANNOUNCER",
-    "normalized_name": "tv-station announcer",
-    "gender": ""
-  },
-  {
-    "id": 58,
-    "name": "Tv Wife",
-    "normalized_name": "tv wife",
-    "gender": ""
-  },
-  {
-    "id": 59,
-    "name": "Tv Husband",
-    "normalized_name": "tv husband",
-    "gender": ""
-  },
-  {
-    "id": 60,
-    "name": "Small Boy",
-    "normalized_name": "small boy",
-    "gender": ""
-  },
-  {
-    "id": 61,
-    "name": "Pawn Broker",
-    "normalized_name": "pawn broker",
-    "gender": ""
-  },
+
   {
     "id": 62,
     "name": "Homer-ish Husband",
@@ -383,18 +145,7 @@
     "normalized_name": "all at the table",
     "gender": ""
   },
-  {
-    "id": 65,
-    "name": "Kid",
-    "normalized_name": "kid",
-    "gender": ""
-  },
-  {
-    "id": 66,
-    "name": "Weasel #2",
-    "normalized_name": "weasel 2",
-    "gender": ""
-  },
+
   {
     "id": 67,
     "name": "Maggie Simpson",
@@ -413,12 +164,7 @@
     "normalized_name": "elderly gentleman",
     "gender": ""
   },
-  {
-    "id": 70,
-    "name": "All",
-    "normalized_name": "all",
-    "gender": ""
-  },
+
   {
     "id": 71,
     "name": "Marge Simpson",
@@ -491,12 +237,7 @@
     "normalized_name": "edna krabappel-flanders",
     "gender": "f"
   },
-  {
-    "id": 83,
-    "name": "Announcer",
-    "normalized_name": "announcer",
-    "gender": "m"
-  },
+
   {
     "id": 84,
     "name": "Selma Bouvier",
@@ -527,12 +268,7 @@
     "normalized_name": "otto mann",
     "gender": "m"
   },
-  {
-    "id": 89,
-    "name": "Lou",
-    "normalized_name": "lou",
-    "gender": "m"
-  },
+
   {
     "id": 90,
     "name": "Todd Flanders",
@@ -558,30 +294,6 @@
     "gender": "m"
   },
   {
-    "id": 94,
-    "name": "Eddie",
-    "normalized_name": "eddie",
-    "gender": "m"
-  },
-  {
-    "id": 95,
-    "name": "Teacher",
-    "normalized_name": "teacher",
-    "gender": "m"
-  },
-  {
-    "id": 96,
-    "name": "Clerk",
-    "normalized_name": "clerk",
-    "gender": "m"
-  },
-  {
-    "id": 97,
-    "name": "Father",
-    "normalized_name": "father",
-    "gender": "m"
-  },
-  {
     "id": 98,
     "name": "Sherri Mackleberry",
     "normalized_name": "sherri mackleberry",
@@ -599,72 +311,14 @@
     "normalized_name": "ms melon",
     "gender": "f"
   },
-  {
-    "id": 101,
-    "name": "Interviewer",
-    "normalized_name": "interviewer",
-    "gender": "m"
-  },
-  {
-    "id": 102,
-    "name": "Ethan Foley",
-    "normalized_name": "ethan foley",
-    "gender": "m"
-  },
-  {
-    "id": 103,
-    "name": "Terri Mackleberry",
-    "normalized_name": "terri mackleberry",
-    "gender": "f"
-  },
-  {
-    "id": 104,
-    "name": "Voice",
-    "normalized_name": "voice",
-    "gender": "m"
-  },
-  {
-    "id": 105,
-    "name": "Receptionist",
-    "normalized_name": "receptionist",
-    "gender": "f"
-  },
-  {
-    "id": 106,
-    "name": "Ms. Barr",
-    "normalized_name": "ms barr",
-    "gender": ""
-  },
-  {
-    "id": 107,
-    "name": "Newsman",
-    "normalized_name": "newsman",
-    "gender": ""
-  },
+
   {
     "id": 108,
     "name": "Barflies",
     "normalized_name": "barflies",
     "gender": ""
   },
-  {
-    "id": 109,
-    "name": "Boy Onlooker",
-    "normalized_name": "boy onlooker",
-    "gender": ""
-  },
-  {
-    "id": 110,
-    "name": "Champ",
-    "normalized_name": "champ",
-    "gender": ""
-  },
-  {
-    "id": 111,
-    "name": "NED",
-    "normalized_name": "ned",
-    "gender": ""
-  },
+
   {
     "id": 112,
     "name": "Homer's Canyon Echo",
@@ -683,28 +337,11 @@
     "normalized_name": "camper mother",
     "gender": ""
   },
-  {
-    "id": 115,
-    "name": "Photographer",
-    "normalized_name": "photographer",
-    "gender": ""
-  },
+
   {
     "id": 116,
     "name": "Game Warden",
     "normalized_name": "game warden",
-    "gender": ""
-  },
-  {
-    "id": 117,
-    "name": "Reporter #1",
-    "normalized_name": "reporter 1",
-    "gender": ""
-  },
-  {
-    "id": 118,
-    "name": "Reporter #2",
-    "normalized_name": "reporter 2",
     "gender": ""
   },
   {
@@ -717,18 +354,6 @@
     "id": 120,
     "name": "Map Boy",
     "normalized_name": "map boy",
-    "gender": ""
-  },
-  {
-    "id": 121,
-    "name": "Man #1",
-    "normalized_name": "man 1",
-    "gender": ""
-  },
-  {
-    "id": 122,
-    "name": "Man #2",
-    "normalized_name": "man 2",
     "gender": ""
   },
   {
@@ -750,39 +375,9 @@
     "gender": ""
   },
   {
-    "id": 126,
-    "name": "Announcer #1",
-    "normalized_name": "announcer 1",
-    "gender": ""
-  },
-  {
-    "id": 127,
-    "name": "Radio Announcer #1",
-    "normalized_name": "radio announcer 1",
-    "gender": ""
-  },
-  {
     "id": 128,
     "name": "Churchgoing Woman",
     "normalized_name": "churchgoing woman",
-    "gender": ""
-  },
-  {
-    "id": 129,
-    "name": "Girl On Screen",
-    "normalized_name": "girl on screen",
-    "gender": ""
-  },
-  {
-    "id": 130,
-    "name": "Boy On Screen",
-    "normalized_name": "boy on screen",
-    "gender": ""
-  },
-  {
-    "id": 131,
-    "name": "Usher",
-    "normalized_name": "usher",
     "gender": ""
   },
   {
@@ -792,81 +387,9 @@
     "gender": ""
   },
   {
-    "id": 133,
-    "name": "Radio Announcer #3",
-    "normalized_name": "radio announcer 3",
-    "gender": ""
-  },
-  {
     "id": 134,
     "name": "Jebediah Springfield",
     "normalized_name": "jebediah springfield",
-    "gender": ""
-  },
-  {
-    "id": 135,
-    "name": "TV ANNOUNCER #3 CONT'D",
-    "normalized_name": "tv announcer 3 contd",
-    "gender": ""
-  },
-  {
-    "id": 136,
-    "name": "Mob",
-    "normalized_name": "mob",
-    "gender": ""
-  },
-  {
-    "id": 137,
-    "name": "Waiters",
-    "normalized_name": "waiters",
-    "gender": ""
-  },
-  {
-    "id": 138,
-    "name": "1st Waiter Quartet",
-    "normalized_name": "1st waiter quartet",
-    "gender": ""
-  },
-  {
-    "id": 139,
-    "name": "2nd Waiter Quartet",
-    "normalized_name": "2nd waiter quartet",
-    "gender": ""
-  },
-  {
-    "id": 140,
-    "name": "3rd Waiter Quartet",
-    "normalized_name": "3rd waiter quartet",
-    "gender": ""
-  },
-  {
-    "id": 141,
-    "name": "4TH QUARTET OF WAITERS",
-    "normalized_name": "4th quartet of waiters",
-    "gender": ""
-  },
-  {
-    "id": 142,
-    "name": "Counter Guy",
-    "normalized_name": "counter guy",
-    "gender": ""
-  },
-  {
-    "id": 143,
-    "name": "HELEN",
-    "normalized_name": "helen",
-    "gender": ""
-  },
-  {
-    "id": 144,
-    "name": "Another Worker",
-    "normalized_name": "another worker",
-    "gender": ""
-  },
-  {
-    "id": 145,
-    "name": "Female Mail Carrier",
-    "normalized_name": "female mail carrier",
     "gender": ""
   },
   {
@@ -882,12 +405,6 @@
     "gender": ""
   },
   {
-    "id": 148,
-    "name": "Workers",
-    "normalized_name": "workers",
-    "gender": ""
-  },
-  {
     "id": 149,
     "name": "Princess Kashmir",
     "normalized_name": "princess kashmir",
@@ -897,96 +414,6 @@
     "id": 150,
     "name": "Hoyt",
     "normalized_name": "hoyt",
-    "gender": ""
-  },
-  {
-    "id": 151,
-    "name": "Girl #1",
-    "normalized_name": "girl 1",
-    "gender": ""
-  },
-  {
-    "id": 152,
-    "name": "Boy #1",
-    "normalized_name": "boy 1",
-    "gender": ""
-  },
-  {
-    "id": 153,
-    "name": "All Kids",
-    "normalized_name": "all kids",
-    "gender": ""
-  },
-  {
-    "id": 154,
-    "name": "Freddie",
-    "normalized_name": "freddie",
-    "gender": ""
-  },
-  {
-    "id": 155,
-    "name": "Lewis's Dad",
-    "normalized_name": "lewiss dad",
-    "gender": ""
-  },
-  {
-    "id": 156,
-    "name": "Al",
-    "normalized_name": "al",
-    "gender": ""
-  },
-  {
-    "id": 157,
-    "name": "Happy Man",
-    "normalized_name": "happy man",
-    "gender": ""
-  },
-  {
-    "id": 158,
-    "name": "Funky Guy",
-    "normalized_name": "funky guy",
-    "gender": ""
-  },
-  {
-    "id": 159,
-    "name": "Man At Door",
-    "normalized_name": "man at door",
-    "gender": ""
-  },
-  {
-    "id": 160,
-    "name": "Ticket-seller",
-    "normalized_name": "ticket-seller",
-    "gender": ""
-  },
-  {
-    "id": 161,
-    "name": "Stage Manager",
-    "normalized_name": "stage manager",
-    "gender": ""
-  },
-  {
-    "id": 162,
-    "name": "Theatre-goer #1",
-    "normalized_name": "theatre-goer 1",
-    "gender": ""
-  },
-  {
-    "id": 163,
-    "name": "Theatre-goer #2",
-    "normalized_name": "theatre-goer 2",
-    "gender": ""
-  },
-  {
-    "id": 164,
-    "name": "Theatre-goer #3",
-    "normalized_name": "theatre-goer 3",
-    "gender": ""
-  },
-  {
-    "id": 165,
-    "name": "Steward",
-    "normalized_name": "steward",
     "gender": ""
   },
   {
@@ -1002,93 +429,9 @@
     "gender": ""
   },
   {
-    "id": 168,
-    "name": "Male Announcer",
-    "normalized_name": "male announcer",
-    "gender": ""
-  },
-  {
-    "id": 169,
-    "name": "Military Man",
-    "normalized_name": "military man",
-    "gender": ""
-  },
-  {
-    "id": 170,
-    "name": "MARGE & BART",
-    "normalized_name": "marge bart",
-    "gender": ""
-  },
-  {
-    "id": 171,
-    "name": "Gendarme",
-    "normalized_name": "gendarme",
-    "gender": ""
-  },
-  {
-    "id": 172,
-    "name": "Cia Agent #1",
-    "normalized_name": "cia agent 1",
-    "gender": ""
-  },
-  {
-    "id": 173,
-    "name": "Cia Agent #2",
-    "normalized_name": "cia agent 2",
-    "gender": ""
-  },
-  {
-    "id": 174,
-    "name": "Brad",
-    "normalized_name": "brad",
-    "gender": ""
-  },
-  {
-    "id": 175,
-    "name": "Female Announcer",
-    "normalized_name": "female announcer",
-    "gender": ""
-  },
-  {
-    "id": 176,
-    "name": "Brittany",
-    "normalized_name": "brittany",
-    "gender": ""
-  },
-  {
     "id": 177,
     "name": "ITCHY & SCRATCHY CHORUS",
     "normalized_name": "itchy scratchy chorus",
-    "gender": ""
-  },
-  {
-    "id": 178,
-    "name": "Police Artist",
-    "normalized_name": "police artist",
-    "gender": ""
-  },
-  {
-    "id": 179,
-    "name": "Scott Christian",
-    "normalized_name": "scott christian",
-    "gender": ""
-  },
-  {
-    "id": 180,
-    "name": "Reporter #3",
-    "normalized_name": "reporter 3",
-    "gender": ""
-  },
-  {
-    "id": 181,
-    "name": "District Attorney",
-    "normalized_name": "district attorney",
-    "gender": ""
-  },
-  {
-    "id": 182,
-    "name": "Merchant",
-    "normalized_name": "merchant",
     "gender": ""
   },
   {
@@ -1170,12 +513,6 @@
     "gender": "m"
   },
   {
-    "id": 196,
-    "name": "Woman",
-    "normalized_name": "woman",
-    "gender": "f"
-  },
-  {
     "id": 197,
     "name": "Rod Flanders",
     "normalized_name": "rod flanders",
@@ -1206,12 +543,6 @@
     "gender": "f"
   },
   {
-    "id": 202,
-    "name": "Waiter",
-    "normalized_name": "waiter",
-    "gender": "m"
-  },
-  {
     "id": 203,
     "name": "Gulliver Dark",
     "normalized_name": "gulliver dark",
@@ -1230,46 +561,10 @@
     "gender": "m"
   },
   {
-    "id": 206,
-    "name": "Cashier",
-    "normalized_name": "cashier",
-    "gender": "m"
-  },
-  {
     "id": 207,
     "name": "Krusty Doll",
     "normalized_name": "krusty doll",
     "gender": "m"
-  },
-  {
-    "id": 208,
-    "name": "Lawyer",
-    "normalized_name": "lawyer",
-    "gender": "m"
-  },
-  {
-    "id": 209,
-    "name": "Mother",
-    "normalized_name": "mother",
-    "gender": "f"
-  },
-  {
-    "id": 210,
-    "name": "Foreperson",
-    "normalized_name": "foreperson",
-    "gender": ""
-  },
-  {
-    "id": 211,
-    "name": "Merchandiser #1",
-    "normalized_name": "merchandiser 1",
-    "gender": ""
-  },
-  {
-    "id": 212,
-    "name": "Merchandiser #3",
-    "normalized_name": "merchandiser 3",
-    "gender": ""
   },
   {
     "id": 213,
@@ -1284,27 +579,9 @@
     "gender": ""
   },
   {
-    "id": 215,
-    "name": "Worker One",
-    "normalized_name": "worker one",
-    "gender": ""
-  },
-  {
-    "id": 216,
-    "name": "Florist",
-    "normalized_name": "florist",
-    "gender": ""
-  },
-  {
     "id": 217,
     "name": "Lucille Botzcowski",
     "normalized_name": "lucille botzcowski",
-    "gender": ""
-  },
-  {
-    "id": 218,
-    "name": "Maitre D'",
-    "normalized_name": "maitre d",
     "gender": ""
   },
   {
@@ -1320,12 +597,6 @@
     "gender": ""
   },
   {
-    "id": 221,
-    "name": "Tv Reporter",
-    "normalized_name": "tv reporter",
-    "gender": ""
-  },
-  {
     "id": 222,
     "name": "Bart's Voice",
     "normalized_name": "barts voice",
@@ -1338,21 +609,9 @@
     "gender": ""
   },
   {
-    "id": 224,
-    "name": "GRANDMA",
-    "normalized_name": "grandma",
-    "gender": ""
-  },
-  {
     "id": 225,
     "name": "Nurse Farrell",
     "normalized_name": "nurse farrell",
-    "gender": ""
-  },
-  {
-    "id": 226,
-    "name": "Entire Town",
-    "normalized_name": "entire town",
     "gender": ""
   },
   {
@@ -1386,18 +645,6 @@
     "gender": ""
   },
   {
-    "id": 232,
-    "name": "Tv Host",
-    "normalized_name": "tv host",
-    "gender": ""
-  },
-  {
-    "id": 233,
-    "name": "Tv Contestant",
-    "normalized_name": "tv contestant",
-    "gender": ""
-  },
-  {
     "id": 234,
     "name": "Good-looking Man",
     "normalized_name": "good-looking man",
@@ -1428,48 +675,6 @@
     "gender": ""
   },
   {
-    "id": 239,
-    "name": "Jake",
-    "normalized_name": "jake",
-    "gender": ""
-  },
-  {
-    "id": 240,
-    "name": "Woman Applicant",
-    "normalized_name": "woman applicant",
-    "gender": ""
-  },
-  {
-    "id": 241,
-    "name": "Man In Tuxedo",
-    "normalized_name": "man in tuxedo",
-    "gender": ""
-  },
-  {
-    "id": 242,
-    "name": "Executive #1",
-    "normalized_name": "executive 1",
-    "gender": ""
-  },
-  {
-    "id": 243,
-    "name": "Executive #3",
-    "normalized_name": "executive 3",
-    "gender": ""
-  },
-  {
-    "id": 244,
-    "name": "Moving Man",
-    "normalized_name": "moving man",
-    "gender": ""
-  },
-  {
-    "id": 245,
-    "name": "House",
-    "normalized_name": "house",
-    "gender": ""
-  },
-  {
     "id": 246,
     "name": "Kang",
     "normalized_name": "kang",
@@ -1485,12 +690,6 @@
     "id": 248,
     "name": "Kodos",
     "normalized_name": "kodos",
-    "gender": ""
-  },
-  {
-    "id": 249,
-    "name": "V.O.",
-    "normalized_name": "vo",
     "gender": ""
   },
   {
@@ -1518,12 +717,6 @@
     "gender": ""
   },
   {
-    "id": 254,
-    "name": "DANEILSON",
-    "normalized_name": "daneilson",
-    "gender": ""
-  },
-  {
     "id": 255,
     "name": "OLD BEARDED GUY",
     "normalized_name": "old bearded guy",
@@ -1536,39 +729,9 @@
     "gender": ""
   },
   {
-    "id": 257,
-    "name": "Singers",
-    "normalized_name": "singers",
-    "gender": ""
-  },
-  {
     "id": 258,
     "name": "MARY BAILEY",
     "normalized_name": "mary bailey",
-    "gender": ""
-  },
-  {
-    "id": 259,
-    "name": "Investigator #1",
-    "normalized_name": "investigator 1",
-    "gender": ""
-  },
-  {
-    "id": 260,
-    "name": "Investigator #2",
-    "normalized_name": "investigator 2",
-    "gender": ""
-  },
-  {
-    "id": 261,
-    "name": "Investigator #3",
-    "normalized_name": "investigator 3",
-    "gender": ""
-  },
-  {
-    "id": 262,
-    "name": "Make-up Man",
-    "normalized_name": "make-up man",
     "gender": ""
   },
   {
@@ -1584,57 +747,15 @@
     "gender": ""
   },
   {
-    "id": 265,
-    "name": "FLASH",
-    "normalized_name": "flash",
-    "gender": ""
-  },
-  {
-    "id": 266,
-    "name": "Player #1",
-    "normalized_name": "player 1",
-    "gender": ""
-  },
-  {
-    "id": 267,
-    "name": "P.A. Announcer",
-    "normalized_name": "pa announcer",
-    "gender": ""
-  },
-  {
     "id": 268,
     "name": "Dan Hoard",
     "normalized_name": "dan hoard",
     "gender": ""
   },
   {
-    "id": 269,
-    "name": "Vendor",
-    "normalized_name": "vendor",
-    "gender": ""
-  },
-  {
-    "id": 270,
-    "name": "VENDER",
-    "normalized_name": "vender",
-    "gender": ""
-  },
-  {
-    "id": 271,
-    "name": "MR. O'HARA",
-    "normalized_name": "mr ohara",
-    "gender": ""
-  },
-  {
     "id": 272,
     "name": "Man On Bus",
     "normalized_name": "man on bus",
-    "gender": ""
-  },
-  {
-    "id": 273,
-    "name": "Player #2",
-    "normalized_name": "player 2",
     "gender": ""
   },
   {
@@ -1647,12 +768,6 @@
     "id": 275,
     "name": "Rasta #2",
     "normalized_name": "rasta 2",
-    "gender": ""
-  },
-  {
-    "id": 276,
-    "name": "Supervisor",
-    "normalized_name": "supervisor",
     "gender": ""
   },
   {
@@ -1674,45 +789,9 @@
     "gender": ""
   },
   {
-    "id": 280,
-    "name": "First Wife #3",
-    "normalized_name": "first wife 3",
-    "gender": ""
-  },
-  {
-    "id": 281,
-    "name": "First Wife #1",
-    "normalized_name": "first wife 1",
-    "gender": ""
-  },
-  {
     "id": 282,
     "name": "Hot Dog Man",
     "normalized_name": "hot dog man",
-    "gender": ""
-  },
-  {
-    "id": 283,
-    "name": "Spectator #1",
-    "normalized_name": "spectator 1",
-    "gender": ""
-  },
-  {
-    "id": 284,
-    "name": "Spectator #2",
-    "normalized_name": "spectator 2",
-    "gender": ""
-  },
-  {
-    "id": 285,
-    "name": "Spectator #3",
-    "normalized_name": "spectator 3",
-    "gender": ""
-  },
-  {
-    "id": 286,
-    "name": "Clubhouse Attendant",
-    "normalized_name": "clubhouse attendant",
     "gender": ""
   },
   {
@@ -1734,75 +813,15 @@
     "gender": ""
   },
   {
-    "id": 290,
-    "name": "Announcer #2",
-    "normalized_name": "announcer 2",
-    "gender": ""
-  },
-  {
     "id": 291,
     "name": "Mrs. Spencer",
     "normalized_name": "mrs spencer",
     "gender": ""
   },
   {
-    "id": 292,
-    "name": "Security Guard #1",
-    "normalized_name": "security guard 1",
-    "gender": ""
-  },
-  {
-    "id": 293,
-    "name": "Casey",
-    "normalized_name": "casey",
-    "gender": ""
-  },
-  {
-    "id": 294,
-    "name": "Rory",
-    "normalized_name": "rory",
-    "gender": ""
-  },
-  {
-    "id": 295,
-    "name": "Transient",
-    "normalized_name": "transient",
-    "gender": ""
-  },
-  {
     "id": 296,
     "name": "Uncle Sam",
     "normalized_name": "uncle sam",
-    "gender": ""
-  },
-  {
-    "id": 297,
-    "name": "Audience",
-    "normalized_name": "audience",
-    "gender": ""
-  },
-  {
-    "id": 298,
-    "name": "Tv Voice #1",
-    "normalized_name": "tv voice 1",
-    "gender": ""
-  },
-  {
-    "id": 299,
-    "name": "Tv Voice #2",
-    "normalized_name": "tv voice 2",
-    "gender": ""
-  },
-  {
-    "id": 300,
-    "name": "Tv Voice #3",
-    "normalized_name": "tv voice 3",
-    "gender": ""
-  },
-  {
-    "id": 301,
-    "name": "ALL THREE TV VOICES",
-    "normalized_name": "all three tv voices",
     "gender": ""
   },
   {
@@ -1830,46 +849,10 @@
     "gender": "m"
   },
   {
-    "id": 306,
-    "name": "Man",
-    "normalized_name": "man",
-    "gender": "m"
-  },
-  {
-    "id": 307,
-    "name": "Marty",
-    "normalized_name": "marty",
-    "gender": "m"
-  },
-  {
-    "id": 308,
-    "name": "TV Announcer",
-    "normalized_name": "tv announcer",
-    "gender": "m"
-  },
-  {
-    "id": 309,
-    "name": "Bill",
-    "normalized_name": "bill",
-    "gender": "m"
-  },
-  {
-    "id": 310,
-    "name": "Director",
-    "normalized_name": "director",
-    "gender": "m"
-  },
-  {
     "id": 311,
     "name": "Arnie Pye",
     "normalized_name": "arnie pye",
     "gender": "m"
-  },
-  {
-    "id": 312,
-    "name": "Nurse",
-    "normalized_name": "nurse",
-    "gender": "f"
   },
   {
     "id": 313,
@@ -1878,81 +861,9 @@
     "gender": "m"
   },
   {
-    "id": 314,
-    "name": "Radio Announcer",
-    "normalized_name": "radio announcer",
-    "gender": "m"
-  },
-  {
-    "id": 315,
-    "name": "British Commentator",
-    "normalized_name": "british commentator",
-    "gender": "m"
-  },
-  {
-    "id": 316,
-    "name": "DANIELSON",
-    "normalized_name": "danielson",
-    "gender": "m"
-  },
-  {
-    "id": 317,
-    "name": "ALL 3 ANNOUNCERS",
-    "normalized_name": "all 3 announcers",
-    "gender": ""
-  },
-  {
-    "id": 318,
-    "name": "LARGO",
-    "normalized_name": "largo",
-    "gender": ""
-  },
-  {
-    "id": 319,
-    "name": "SCRAPER",
-    "normalized_name": "scraper",
-    "gender": ""
-  },
-  {
-    "id": 320,
-    "name": "CLARK",
-    "normalized_name": "clark",
-    "gender": ""
-  },
-  {
-    "id": 321,
-    "name": "SMYTHE",
-    "normalized_name": "smythe",
-    "gender": ""
-  },
-  {
     "id": 322,
     "name": "Itchy & Scratchy Singers",
     "normalized_name": "itchy scratchy singers",
-    "gender": ""
-  },
-  {
-    "id": 323,
-    "name": "Her Group",
-    "normalized_name": "her group",
-    "gender": ""
-  },
-  {
-    "id": 324,
-    "name": "Animator",
-    "normalized_name": "animator",
-    "gender": ""
-  },
-  {
-    "id": 325,
-    "name": "1ST BOARD MEMBER",
-    "normalized_name": "1st board member",
-    "gender": ""
-  },
-  {
-    "id": 326,
-    "name": "2nd Board Member",
-    "normalized_name": "2nd board member",
     "gender": ""
   },
   {
@@ -1974,51 +885,15 @@
     "gender": ""
   },
   {
-    "id": 330,
-    "name": "Curator",
-    "normalized_name": "curator",
-    "gender": ""
-  },
-  {
-    "id": 331,
-    "name": "Della",
-    "normalized_name": "della",
-    "gender": ""
-  },
-  {
-    "id": 332,
-    "name": "Bailiff",
-    "normalized_name": "bailiff",
-    "gender": ""
-  },
-  {
-    "id": 333,
-    "name": "BURNS LAWYER",
-    "normalized_name": "burns lawyer",
-    "gender": ""
-  },
-  {
     "id": 334,
     "name": "Sushi Bar Chefs",
     "normalized_name": "sushi bar chefs",
     "gender": ""
   },
   {
-    "id": 335,
-    "name": "Hostess",
-    "normalized_name": "hostess",
-    "gender": ""
-  },
-  {
     "id": 336,
     "name": "Toshiro",
     "normalized_name": "toshiro",
-    "gender": ""
-  },
-  {
-    "id": 337,
-    "name": "Master",
-    "normalized_name": "master",
     "gender": ""
   },
   {
@@ -2034,12 +909,6 @@
     "gender": ""
   },
   {
-    "id": 340,
-    "name": "Crazy Calls",
-    "normalized_name": "crazy calls",
-    "gender": ""
-  },
-  {
     "id": 341,
     "name": "Smitty",
     "normalized_name": "smitty",
@@ -2049,48 +918,6 @@
     "id": 342,
     "name": "Larry King",
     "normalized_name": "larry king",
-    "gender": ""
-  },
-  {
-    "id": 343,
-    "name": "LARRY KING V.O.",
-    "normalized_name": "larry king vo",
-    "gender": ""
-  },
-  {
-    "id": 344,
-    "name": "Bald One",
-    "normalized_name": "bald one",
-    "gender": ""
-  },
-  {
-    "id": 345,
-    "name": "Police Captain",
-    "normalized_name": "police captain",
-    "gender": ""
-  },
-  {
-    "id": 346,
-    "name": "Fat One",
-    "normalized_name": "fat one",
-    "gender": ""
-  },
-  {
-    "id": 347,
-    "name": "Kim",
-    "normalized_name": "kim",
-    "gender": ""
-  },
-  {
-    "id": 348,
-    "name": "Estelle",
-    "normalized_name": "estelle",
-    "gender": ""
-  },
-  {
-    "id": 349,
-    "name": "MCINTYRE",
-    "normalized_name": "mcintyre",
     "gender": ""
   },
   {
@@ -2115,18 +942,6 @@
     "id": 353,
     "name": "Mr. Bouvier",
     "normalized_name": "mr bouvier",
-    "gender": ""
-  },
-  {
-    "id": 354,
-    "name": "Chauffeur",
-    "normalized_name": "chauffeur",
-    "gender": ""
-  },
-  {
-    "id": 355,
-    "name": "PRINCIPAL",
-    "normalized_name": "principal",
     "gender": ""
   },
   {
@@ -2166,18 +981,6 @@
     "gender": ""
   },
   {
-    "id": 362,
-    "name": "Woman #1",
-    "normalized_name": "woman 1",
-    "gender": ""
-  },
-  {
-    "id": 363,
-    "name": "Woman #2",
-    "normalized_name": "woman 2",
-    "gender": ""
-  },
-  {
     "id": 364,
     "name": "Mexican Announcer",
     "normalized_name": "mexican announcer",
@@ -2208,12 +1011,6 @@
     "gender": ""
   },
   {
-    "id": 369,
-    "name": "Panelist #1",
-    "normalized_name": "panelist 1",
-    "gender": ""
-  },
-  {
     "id": 370,
     "name": "Blockbuster Announcer",
     "normalized_name": "blockbuster announcer",
@@ -2226,93 +1023,9 @@
     "gender": ""
   },
   {
-    "id": 372,
-    "name": "Stock Reporter",
-    "normalized_name": "stock reporter",
-    "gender": ""
-  },
-  {
-    "id": 373,
-    "name": "Boxing Announcer #1",
-    "normalized_name": "boxing announcer 1",
-    "gender": ""
-  },
-  {
-    "id": 374,
-    "name": "Boxing Announcer #2",
-    "normalized_name": "boxing announcer 2",
-    "gender": ""
-  },
-  {
-    "id": 375,
-    "name": "Challenger",
-    "normalized_name": "challenger",
-    "gender": ""
-  },
-  {
-    "id": 376,
-    "name": "Referee",
-    "normalized_name": "referee",
-    "gender": ""
-  },
-  {
     "id": 377,
     "name": "Kindly Old Gent",
     "normalized_name": "kindly old gent",
-    "gender": ""
-  },
-  {
-    "id": 378,
-    "name": "Stanley",
-    "normalized_name": "stanley",
-    "gender": ""
-  },
-  {
-    "id": 379,
-    "name": "Busboy",
-    "normalized_name": "busboy",
-    "gender": ""
-  },
-  {
-    "id": 380,
-    "name": "Australian Boy",
-    "normalized_name": "australian boy",
-    "gender": ""
-  },
-  {
-    "id": 381,
-    "name": "Australian Girl",
-    "normalized_name": "australian girl",
-    "gender": ""
-  },
-  {
-    "id": 382,
-    "name": "Jeweler",
-    "normalized_name": "jeweler",
-    "gender": ""
-  },
-  {
-    "id": 383,
-    "name": "Senator Mendoza",
-    "normalized_name": "senator mendoza",
-    "gender": ""
-  },
-  {
-    "id": 384,
-    "name": "Board Member",
-    "normalized_name": "board member",
-    "gender": ""
-  },
-  {
-    "id": 385,
-    "name": "Female Commando",
-    "normalized_name": "female commando",
-    "gender": ""
-  },
-  {
-    "id": 386,
-    "name": "Theatre Manager",
-    "normalized_name": "theatre manager",
     "gender": ""
   },
   {
@@ -2322,63 +1035,9 @@
     "gender": ""
   },
   {
-    "id": 388,
-    "name": "Attendant",
-    "normalized_name": "attendant",
-    "gender": ""
-  },
-  {
-    "id": 389,
-    "name": "Policeman",
-    "normalized_name": "policeman",
-    "gender": ""
-  },
-  {
-    "id": 390,
-    "name": "Executive #2",
-    "normalized_name": "executive 2",
-    "gender": ""
-  },
-  {
-    "id": 391,
-    "name": "Head Engineer",
-    "normalized_name": "head engineer",
-    "gender": ""
-  },
-  {
-    "id": 392,
-    "name": "Engineer #2",
-    "normalized_name": "engineer 2",
-    "gender": ""
-  },
-  {
-    "id": 393,
-    "name": "Engineer #3",
-    "normalized_name": "engineer 3",
-    "gender": ""
-  },
-  {
-    "id": 394,
-    "name": "Female Singer",
-    "normalized_name": "female singer",
-    "gender": ""
-  },
-  {
-    "id": 395,
-    "name": "Counter Man",
-    "normalized_name": "counter man",
-    "gender": ""
-  },
-  {
     "id": 396,
     "name": "Flanders's Thoughts",
     "normalized_name": "flanderss thoughts",
-    "gender": ""
-  },
-  {
-    "id": 397,
-    "name": "Kelly",
-    "normalized_name": "kelly",
     "gender": ""
   },
   {
@@ -2388,27 +1047,9 @@
     "gender": ""
   },
   {
-    "id": 399,
-    "name": "Salesboy",
-    "normalized_name": "salesboy",
-    "gender": ""
-  },
-  {
     "id": 400,
     "name": "Hula Woman",
     "normalized_name": "hula woman",
-    "gender": ""
-  },
-  {
-    "id": 401,
-    "name": "BEA",
-    "normalized_name": "bea",
-    "gender": ""
-  },
-  {
-    "id": 402,
-    "name": "Checker",
-    "normalized_name": "checker",
     "gender": ""
   },
   {
@@ -2433,12 +1074,6 @@
     "id": 406,
     "name": "Lionel Hutz",
     "normalized_name": "lionel hutz",
-    "gender": "m"
-  },
-  {
-    "id": 407,
-    "name": "HERB",
-    "normalized_name": "herb",
     "gender": "m"
   },
   {
@@ -2472,39 +1107,9 @@
     "gender": "m"
   },
   {
-    "id": 413,
-    "name": "Larry",
-    "normalized_name": "larry",
-    "gender": "m"
-  },
-  {
     "id": 414,
     "name": "Principal Dondelinger",
     "normalized_name": "principal dondelinger",
-    "gender": "m"
-  },
-  {
-    "id": 415,
-    "name": "Emily",
-    "normalized_name": "emily",
-    "gender": "f"
-  },
-  {
-    "id": 416,
-    "name": "Akira",
-    "normalized_name": "akira",
-    "gender": "m"
-  },
-  {
-    "id": 417,
-    "name": "Jack",
-    "normalized_name": "jack",
-    "gender": "m"
-  },
-  {
-    "id": 418,
-    "name": "Track Announcer",
-    "normalized_name": "track announcer",
     "gender": "m"
   },
   {
@@ -2514,57 +1119,9 @@
     "gender": "m"
   },
   {
-    "id": 420,
-    "name": "Farmer",
-    "normalized_name": "farmer",
-    "gender": "m"
-  },
-  {
-    "id": 421,
-    "name": "Reporter",
-    "normalized_name": "reporter",
-    "gender": "m"
-  },
-  {
-    "id": 422,
-    "name": "MURDOCK",
-    "normalized_name": "murdock",
-    "gender": "m"
-  },
-  {
-    "id": 423,
-    "name": "Tracker",
-    "normalized_name": "tracker",
-    "gender": ""
-  },
-  {
     "id": 424,
     "name": "Mr. Hazelwood",
     "normalized_name": "mr hazelwood",
-    "gender": ""
-  },
-  {
-    "id": 425,
-    "name": "Cabbie",
-    "normalized_name": "cabbie",
-    "gender": ""
-  },
-  {
-    "id": 426,
-    "name": "KENT",
-    "normalized_name": "kent",
-    "gender": ""
-  },
-  {
-    "id": 427,
-    "name": "MONROE",
-    "normalized_name": "monroe",
-    "gender": ""
-  },
-  {
-    "id": 428,
-    "name": "Old Man Daly",
-    "normalized_name": "old man daly",
     "gender": ""
   },
   {
@@ -2574,21 +1131,9 @@
     "gender": ""
   },
   {
-    "id": 430,
-    "name": "Plato",
-    "normalized_name": "plato",
-    "gender": ""
-  },
-  {
     "id": 431,
     "name": "Croupier",
     "normalized_name": "croupier",
-    "gender": ""
-  },
-  {
-    "id": 432,
-    "name": "Recorded Announcer",
-    "normalized_name": "recorded announcer",
     "gender": ""
   },
   {
@@ -2598,183 +1143,15 @@
     "gender": ""
   },
   {
-    "id": 434,
-    "name": "Monitor #1",
-    "normalized_name": "monitor 1",
-    "gender": ""
-  },
-  {
-    "id": 435,
-    "name": "Monitor #2",
-    "normalized_name": "monitor 2",
-    "gender": ""
-  },
-  {
-    "id": 436,
-    "name": "Female Newscaster",
-    "normalized_name": "female newscaster",
-    "gender": ""
-  },
-  {
-    "id": 437,
-    "name": "Mr. Schindler",
-    "normalized_name": "mr schindler",
-    "gender": ""
-  },
-  {
-    "id": 438,
-    "name": "Student",
-    "normalized_name": "student",
-    "gender": ""
-  },
-  {
-    "id": 439,
-    "name": "Registrar",
-    "normalized_name": "registrar",
-    "gender": ""
-  },
-  {
-    "id": 440,
-    "name": "Professor Lombardo",
-    "normalized_name": "professor lombardo",
-    "gender": ""
-  },
-  {
-    "id": 441,
-    "name": "BART & LISA",
-    "normalized_name": "bart lisa",
-    "gender": ""
-  },
-  {
-    "id": 442,
-    "name": "Artist",
-    "normalized_name": "artist",
-    "gender": ""
-  },
-  {
-    "id": 443,
-    "name": "Delivery Man",
-    "normalized_name": "delivery man",
-    "gender": ""
-  },
-  {
     "id": 444,
     "name": "MR. BURNS' GEOMETRIC SHAPES",
     "normalized_name": "mr burns geometric shapes",
     "gender": ""
   },
   {
-    "id": 445,
-    "name": "RINGO",
-    "normalized_name": "ringo",
-    "gender": ""
-  },
-  {
-    "id": 446,
-    "name": "WETHERBY",
-    "normalized_name": "wetherby",
-    "gender": ""
-  },
-  {
-    "id": 447,
-    "name": "MRS. HOOVER",
-    "normalized_name": "mrs hoover",
-    "gender": ""
-  },
-  {
-    "id": 448,
-    "name": "Chuck",
-    "normalized_name": "chuck",
-    "gender": ""
-  },
-  {
-    "id": 449,
-    "name": "Classmate",
-    "normalized_name": "classmate",
-    "gender": ""
-  },
-  {
-    "id": 450,
-    "name": "Terri/sherri",
-    "normalized_name": "terrisherri",
-    "gender": ""
-  },
-  {
-    "id": 451,
-    "name": "Woman In Booth",
-    "normalized_name": "woman in booth",
-    "gender": ""
-  },
-  {
-    "id": 452,
-    "name": "Landlady",
-    "normalized_name": "landlady",
-    "gender": ""
-  },
-  {
-    "id": 453,
-    "name": "Kid Reporter",
-    "normalized_name": "kid reporter",
-    "gender": ""
-  },
-  {
-    "id": 454,
-    "name": "Husband Of Marge's Friend",
-    "normalized_name": "husband of marges friend",
-    "gender": ""
-  },
-  {
-    "id": 455,
-    "name": "Sophisticate #1",
-    "normalized_name": "sophisticate 1",
-    "gender": ""
-  },
-  {
-    "id": 456,
-    "name": "Sophisticate #2",
-    "normalized_name": "sophisticate 2",
-    "gender": ""
-  },
-  {
-    "id": 457,
-    "name": "Sophisticate #3",
-    "normalized_name": "sophisticate 3",
-    "gender": ""
-  },
-  {
-    "id": 458,
-    "name": "Sultan",
-    "normalized_name": "sultan",
-    "gender": ""
-  },
-  {
     "id": 459,
     "name": "Worm Man",
     "normalized_name": "worm man",
-    "gender": ""
-  },
-  {
-    "id": 460,
-    "name": "Convict",
-    "normalized_name": "convict",
-    "gender": ""
-  },
-  {
-    "id": 461,
-    "name": "Customer",
-    "normalized_name": "customer",
-    "gender": ""
-  },
-  {
-    "id": 462,
-    "name": "DIAMOND JOE",
-    "normalized_name": "diamond joe",
-    "gender": ""
-  },
-  {
-    "id": 463,
-    "name": "Lost And Found Guy",
-    "normalized_name": "lost and found guy",
     "gender": ""
   },
   {
@@ -2793,18 +1170,6 @@
     "id": 466,
     "name": "Convention Director",
     "normalized_name": "convention director",
-    "gender": ""
-  },
-  {
-    "id": 467,
-    "name": "BUDDY",
-    "normalized_name": "buddy",
-    "gender": ""
-  },
-  {
-    "id": 468,
-    "name": "Dealer",
-    "normalized_name": "dealer",
     "gender": ""
   },
   {
@@ -2832,24 +1197,6 @@
     "gender": ""
   },
   {
-    "id": 473,
-    "name": "Adult Narrator",
-    "normalized_name": "adult narrator",
-    "gender": ""
-  },
-  {
-    "id": 474,
-    "name": "Teller",
-    "normalized_name": "teller",
-    "gender": ""
-  },
-  {
-    "id": 475,
-    "name": "Asa",
-    "normalized_name": "asa",
-    "gender": ""
-  },
-  {
     "id": 476,
     "name": "Soap Actress",
     "normalized_name": "soap actress",
@@ -2874,63 +1221,9 @@
     "gender": ""
   },
   {
-    "id": 480,
-    "name": "Roman",
-    "normalized_name": "roman",
-    "gender": ""
-  },
-  {
-    "id": 481,
-    "name": "Postal Worker",
-    "normalized_name": "postal worker",
-    "gender": ""
-  },
-  {
-    "id": 482,
-    "name": "Joey",
-    "normalized_name": "joey",
-    "gender": ""
-  },
-  {
-    "id": 483,
-    "name": "Guard #1",
-    "normalized_name": "guard 1",
-    "gender": ""
-  },
-  {
-    "id": 484,
-    "name": "Guard #2",
-    "normalized_name": "guard 2",
-    "gender": ""
-  },
-  {
-    "id": 485,
-    "name": "Psychiatrist",
-    "normalized_name": "psychiatrist",
-    "gender": ""
-  },
-  {
-    "id": 486,
-    "name": "Orderly",
-    "normalized_name": "orderly",
-    "gender": ""
-  },
-  {
-    "id": 487,
-    "name": "Floyd",
-    "normalized_name": "floyd",
-    "gender": ""
-  },
-  {
     "id": 488,
     "name": "Bart's Head",
     "normalized_name": "barts head",
-    "gender": ""
-  },
-  {
-    "id": 489,
-    "name": "Voice On Phone",
-    "normalized_name": "voice on phone",
     "gender": ""
   },
   {
@@ -2943,150 +1236,6 @@
     "id": 491,
     "name": "Minnesota Girl",
     "normalized_name": "minnesota girl",
-    "gender": ""
-  },
-  {
-    "id": 492,
-    "name": "Alabama Boy",
-    "normalized_name": "alabama boy",
-    "gender": ""
-  },
-  {
-    "id": 493,
-    "name": "QUEENS BOY",
-    "normalized_name": "queens boy",
-    "gender": ""
-  },
-  {
-    "id": 494,
-    "name": "Female Judge",
-    "normalized_name": "female judge",
-    "gender": ""
-  },
-  {
-    "id": 495,
-    "name": "Dad",
-    "normalized_name": "dad",
-    "gender": ""
-  },
-  {
-    "id": 496,
-    "name": "Flight Attendant",
-    "normalized_name": "flight attendant",
-    "gender": ""
-  },
-  {
-    "id": 497,
-    "name": "Irs Man",
-    "normalized_name": "irs man",
-    "gender": ""
-  },
-  {
-    "id": 498,
-    "name": "Hotel Guest",
-    "normalized_name": "hotel guest",
-    "gender": ""
-  },
-  {
-    "id": 499,
-    "name": "Miss Crowley",
-    "normalized_name": "miss crowley",
-    "gender": ""
-  },
-  {
-    "id": 500,
-    "name": "Truong/maria",
-    "normalized_name": "truongmaria",
-    "gender": ""
-  },
-  {
-    "id": 501,
-    "name": "TRUONG",
-    "normalized_name": "truong",
-    "gender": ""
-  },
-  {
-    "id": 502,
-    "name": "MARIA",
-    "normalized_name": "maria",
-    "gender": ""
-  },
-  {
-    "id": 503,
-    "name": "Worker",
-    "normalized_name": "worker",
-    "gender": ""
-  },
-  {
-    "id": 504,
-    "name": "Guide",
-    "normalized_name": "guide",
-    "gender": ""
-  },
-  {
-    "id": 505,
-    "name": "Lobbyist",
-    "normalized_name": "lobbyist",
-    "gender": ""
-  },
-  {
-    "id": 506,
-    "name": "Arnold",
-    "normalized_name": "arnold",
-    "gender": ""
-  },
-  {
-    "id": 507,
-    "name": "Newlywed Wife",
-    "normalized_name": "newlywed wife",
-    "gender": ""
-  },
-  {
-    "id": 508,
-    "name": "White Trash Woman #1",
-    "normalized_name": "white trash woman 1",
-    "gender": ""
-  },
-  {
-    "id": 509,
-    "name": "Man #3",
-    "normalized_name": "man 3",
-    "gender": ""
-  },
-  {
-    "id": 510,
-    "name": "Old Timer",
-    "normalized_name": "old timer",
-    "gender": ""
-  },
-  {
-    "id": 511,
-    "name": "Guy",
-    "normalized_name": "guy",
-    "gender": ""
-  },
-  {
-    "id": 512,
-    "name": "Songster",
-    "normalized_name": "songster",
-    "gender": ""
-  },
-  {
-    "id": 513,
-    "name": "Page",
-    "normalized_name": "page",
-    "gender": ""
-  },
-  {
-    "id": 514,
-    "name": "Senator",
-    "normalized_name": "senator",
-    "gender": ""
-  },
-  {
-    "id": 515,
-    "name": "Oil Developer",
-    "normalized_name": "oil developer",
     "gender": ""
   },
   {

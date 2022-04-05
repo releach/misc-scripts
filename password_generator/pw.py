@@ -39,7 +39,7 @@ class Password:
 
     # Returns a string of random characters.
     def randomChars(self):
-        randomChars = "!@#$%_^&*()?123457689"
+        randomChars = "!@#$%&*?123457689"
         return randomChars
 
     # Creates a password of n length that combines a character name and random characters.
