@@ -9,12 +9,9 @@ bearer_token = os.environ.get("BEARER_TOKEN")
 search_url = "https://api.twitter.com/2/tweets/"
 csvin = input('Enter input csv path: ')
 csvout = input('Enter output csv filename: ')
-# Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
-# expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
-# query_params = {'query': '(from:twitterdev -is:retweet) OR #twitterdev','tweet.fields': 'author_id'}
 
 
-def get_tweets(csvin):
+def tweet_params(csvin):
     """
     Creates dicts of 100 tweet_ids and appends them to param_list.
     """
@@ -30,6 +27,7 @@ def get_tweets(csvin):
     return param_list
 
 
+
 def bearer_oauth(r):
     """
     Creates auth headers for bearer token.
@@ -38,11 +36,11 @@ def bearer_oauth(r):
     return r
 
 
-def connect_to_endpoint(url, params):
+def get_tweet_content(url, params):
     """
-    Connects to API endpoint and returns tweets in JSON.
+    Connects to API endpoint and returns tweet contents in JSON.
     """
-    response = requests.get(url, auth=bearer_oauth, params=params)
+    response = requests.get(url + '?tweet.fields=created_at', auth=bearer_oauth, params=params)
     if response.status_code != 200:
         raise Exception(response.status_code, response.text)
     json_response = response.json()
@@ -58,6 +56,7 @@ def write_csv(source_data):
         for tweet in source_data['data']:
             tweetrow = []
             tweetrow.append(tweet['id'])
+            tweetrow.append(tweet['created_at'])
             tweetrow.append(tweet['text'])
             tweetdata.append(tweetrow)
     with open(csvout, "a", newline="") as f:
@@ -66,9 +65,9 @@ def write_csv(source_data):
 
 
 def main():
-    tweet_data = get_tweets(csvin)
+    tweet_data = tweet_params(csvin)
     for query_params in tweet_data:
-        json_response = connect_to_endpoint(search_url, query_params)
+        json_response = get_tweet_content(search_url, query_params)
         write_csv(json_response)
 
 if __name__ == "__main__":
