@@ -20,7 +20,7 @@ class Password:
     # Opens JSON file of character names and returns it in a list.
     def openJSON(self):
         with open(
-            "/Users/rleach/Desktop/github/misc-scripts/password_generator/character_data.json"
+            "/Users/releach/Desktop/misc-scripts/password_generator/character_data.json"
         ) as f:
             data = json.load(f)
             return data
