@@ -1,65 +1,72 @@
 #!/usr/bin/env python
-
-# Submits ontology to OOPs REST service to scan for common ontology errors.
+# Submits ontology to OOPS REST service to scan for common ontology errors.
 
 import os
-import os.path
-import subprocess
 import sys
 import xml.etree.ElementTree as ET
-
 import requests
 
+def read_ontology_file():
+    """Prompt user for OWL file name, read, and return its content."""
+    owl_file = input("Enter OWL filename: ")
+    owl_path = os.path.join(os.path.dirname(__file__), owl_file)
+    try:
+        with open(owl_path, 'r') as file:
+            return file.read()
+    except FileNotFoundError:
+        print(f"File {owl_file} not found.")
+        sys.exit(1)
 
-def create_data():
-  dirname = os.path.dirname(__file__)
-  owl_file = input("Enter owl filename: ")
-  with open(os.path.join(dirname, owl_file), 'r') as file:
-    ontology = file.read()
+def create_request_xml(ontology):
+    """Create XML from ontology."""
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<OOPSRequest>
+    <OntologyUrl></OntologyUrl>
+    <OntologyContent><![CDATA[{ontology}]]></OntologyContent>
+    <Pitfalls></Pitfalls>
+    <OutputFormat>XML</OutputFormat>
+</OOPSRequest>
+"""
 
-  xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-  <OOPSRequest>
-        <OntologyUrl></OntologyUrl>
-        <OntologyContent><![CDATA[{ontology}
-  ]]></OntologyContent>
-        <Pitfalls></Pitfalls>
-        <OutputFormat>XML</OutputFormat>
-  </OOPSRequest>
+def call_oops_api(request_xml):
+    """Submit the ontology to the OOPS API and handle the response."""
+    url = "https://oops.linkeddata.es/rest"
+    headers = {"Content-Type": "text/xml"}
 
-  """
-  return xml
+    try:
+        response = requests.post(url, data=request_xml, headers=headers)
+        response.raise_for_status() 
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
+        sys.exit(1)
 
-def call_api(xml):
+    process_response(response.text)
 
-  url = "https://oops.linkeddata.es/rest"
-  headers = {"Content-Type":"text/xml"}
+def process_response(response_text):
+    """Process the API response, extracting and printing pitfalls."""
+    try:
+        results_xml = ET.fromstring(response_text)
+        pitfalls = results_xml.find('{http://www.oeg-upm.net/oops}Pitfall')
+        if pitfalls is None:
+            print("The OOPS Pitfall Scanner did not encounter any errors.")
+        else:
+            print("Errors encountered. See pitfall_report.txt for details.")
+            for pitfall in results_xml.iter('{http://www.oeg-upm.net/oops}Pitfall'):
+                print_pitfall_info(pitfall)
+            with open("pitfall_report.txt", "w") as file:
+                file.write(response_text)
+    except ET.ParseError as e:
+        print(f"Error parsing XML response: {e}")
+        sys.exit(1)
 
-
-  r = requests.post(url, data=xml, headers=headers)
-  if r:
-    resultsXML = ET.fromstring(r.text)
-    pitfalls = resultsXML.find('{http://www.oeg-upm.net/oops}Pitfall')
-    if pitfalls is None:
-      print("The OOPS Pitfall Scanner did not encounter any errors.")
-      sys.exit(0)
-    else:
-      print("The OOPS Pitfall Scanner has encountered errors. See a full error report for more details.\n")
-      for pitfall in resultsXML.iter('{http://www.oeg-upm.net/oops}Pitfall'):
-        name = (pitfall.find('{http://www.oeg-upm.net/oops}Name').text).strip()
-        description = (pitfall.find('{http://www.oeg-upm.net/oops}Description').text).strip()
-        importance = (pitfall.find('{http://www.oeg-upm.net/oops}Importance').text).strip()
-        print(
-          f'{importance}\n'
-          f'{name}\n'
-          f'{description}\n'
-          )
-      with open(os.path.expanduser("pitfall_report.txt"), "w") as file:
-        file.write(r.text)
-      sys.exit(0)
-  else:
-    print("Could not connect to OOPS Pitfall Scanner. Check that your ontology file is saved as RDF/XML.")
-    sys.exit(1)
+def print_pitfall_info(pitfall):
+    """Print information about a single pitfall."""
+    name = pitfall.find('{http://www.oeg-upm.net/oops}Name').text.strip()
+    description = pitfall.find('{http://www.oeg-upm.net/oops}Description').text.strip()
+    importance = pitfall.find('{http://www.oeg-upm.net/oops}Importance').text.strip()
+    print(f"{importance}\n{name}\n{description}\n")
 
 if __name__ == "__main__":
-  xml = create_data()
-  call_api(xml)
+    ontology = read_ontology_file()
+    request_xml = create_request_xml(ontology)
+    call_oops_api(request_xml)

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/animals#"
+     xml:base="http://www.example.org/animals"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     
+    <owl:Ontology rdf:about="http://www.example.org/animals"/>
+    
+    <!-- Class definitions -->
+    <owl:Class rdf:about="#Animal"/>
+    <owl:Class rdf:about="#Mammal">
+        <rdfs:subClassOf rdf:resource="#Bird"/> <!-- Intentional error: Mammal should not subclass Bird -->
+    </owl:Class>
+    <owl:Class rdf:about="#Bird">
+        <rdfs:subClassOf rdf:resource="#Mammal"/> <!-- Intentional error: Bird should not subclass Mammal -->
+    </owl:Class>
+    
+    <!-- Individual instances -->
+    <owl:NamedIndividual rdf:about="#Elephant">
+        <rdf:type rdf:resource="#Mammal"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Sparrow">
+        <rdf:type rdf:resource="#Bird"/>
+    </owl:NamedIndividual>
+    
+</rdf:RDF>
